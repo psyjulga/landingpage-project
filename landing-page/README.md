@@ -1,13 +1,15 @@
 # Landing Page Project
 
-## Table of Contents
+Landing Page Project with dynamically created navbar
 
-* [Instructions](#instructions)
+## Project Requirements
 
-## Instructions
+* build a dynamic navbar with JS
+* automatic scroll to the clicked section
+* highlight the section in viewport
+* responsive layout
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Learning Goals
 
-To get started, open `js/app.js` and start building out the app's functionality
+Connect the knowledge of HTML, CSS and JS
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
