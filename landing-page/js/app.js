@@ -28,11 +28,15 @@ function createNavbar() {
     // styling lasts until another item is clicked
     navbarList.addEventListener("click", function (e) {
       e.stopPropagation();
-      if (navbarLink.classList.contains("active__link")) {
-        navbarLink.classList.remove("active__link");
-        e.target.classList.add("active__link");
-      } else {
-        e.target.classList.add("active__link");
+      if (e.target.id !== "navbar__list") {
+        // => to prevent trigger the event when clicked on navbar itself
+        //    (next to an actual link)
+        if (navbarLink.classList.contains("active__link")) {
+          navbarLink.classList.remove("active__link");
+          e.target.classList.add("active__link");
+        } else {
+          e.target.classList.add("active__link");
+        }
       }
     });
   });
